@@ -5,6 +5,7 @@
 body{
 	margin: 0px;
 	padding: 0px;
+    background-color: #FAFAFA;
 }
 .container{
 	max-width: 1090px;
@@ -15,7 +16,6 @@ body{
 	background-image: url("./src/images/cover.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin-bottom: 200vh;
 }
 .header__list{
 	list-style: none;
@@ -116,4 +116,45 @@ body{
 
 #blue-el .box-item__title {
 		color: #fff;
+}
+
+.count{
+    &__section{
+        margin-top: 250px;
+    }
+    &__wrapper{
+        max-width: 600px;
+        text-align:center ;
+        margin: 0 auto;
+    }
+    &__boxes{
+        display: flex;
+        gap: 30px;
+    }
+    &__box{
+        width: 100%;
+        background-color: #FFFFFF;
+        text-align: center;
+        padding: 30px;
+    }
+    &__img{
+        display: block;
+        margin: 0 auto;
+       
+        object-fit: contain;
+    }
+    &__img-box{
+        height: 55px;
+         margin-bottom: 10px;
+    }
+    &__heading{
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    &__paragraf{
+        font-weight: 700;
+        font-size: 16px;
+        color: #737373;
+    }
 }
