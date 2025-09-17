@@ -12,7 +12,7 @@ body{
 	padding: 0 20px;
 }
 .header{
-	background-image: url("./src/images/cover.jpg");
+	background-image: url("./cover.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-bottom: 200vh;
